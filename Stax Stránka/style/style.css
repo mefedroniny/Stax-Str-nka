@@ -1,0 +1,122 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    background-color:rgb(44, 40, 40);
+}
+
+img{
+    max-width: 150px;
+}
+
+main{
+    height: 825px;
+    background-color: rgb(44, 40, 40);
+    margin: 50px;
+}
+
+body{
+    margin: 0px;
+    background-color: rgb(44, 40, 40);
+}
+
+.text1 a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+.text1,a{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-right: 6px;
+    padding: 10px;
+}
+
+.ikony img{
+    max-width: 50px;
+}
+
+.ikony{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+}
+footer{
+    background-color: rgb(44, 40, 40);
+    padding: 50px;
+}
+.wrapper{
+    max-width: 700px;
+    margin: auto;
+}
+
+.odkazy a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.odkazy {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 1000;
+    border-bottom: 1px solid white;
+   
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    font-size: 19px;
+    font-weight: 1000px;
+    color: aliceblue;
+}
+
+.top5 a{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    color: aliceblue;
+    margin: 10px;
+}
+.picovina{
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+}
+
+.hodina{
+    text-align: center;
+}
+
+.picovina{
+    text-align: center;
+}
+.text4{
+    color: aliceblue;
+    font-size: 20px;
+    width: 420px; /* Šířka boxu */
+    padding: 10px; /* Odstup uvnitř boxu */
+    overflow-wrap: break-word; /* Tato vlastnost zajišťuje zalamování textu */
+    position: absolute;
+    right: 410px;
+}
+.text5{
+    color: aliceblue;
+    font-size: 20px;
+    width: 580px; /* Šířka boxu */
+    padding: 10px; /* Odstup uvnitř boxu */
+    overflow-wrap: break-word; /* Tato vlastnost zajišťuje zalamování textu */
+    
+}
